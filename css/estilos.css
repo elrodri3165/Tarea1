@@ -19,7 +19,8 @@ h1, h2, h3, h4{
 }
 
 p{
-    margin: 0;
+    margin: 10px;
+    padding: 10px;
 }
 
 header{
@@ -68,4 +69,12 @@ input{
     cursor: pointer;
     background-color: white;
     color: black;
+}
+
+.rojo{
+    color: red;
+}
+
+.azul{
+    color: blue;
 }
