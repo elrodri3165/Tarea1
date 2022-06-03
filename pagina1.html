@@ -1,40 +1,57 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<head>
-    <meta charset="UTF-8">
-    <title>Primera Web - Tarea1</title>
-    <link rel="stylesheet" href="css/estilos.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta name="description" content="Mi primera tarea"/>
+        <meta name="keywords" content="Mecanicos, mecanica, autos"/>
+        <meta name="copyright" content=""/>
+        <meta name="author" content="Rodrigo Nicolas Gallo"/>
+        <meta name="robots" content="index"/>
+        <meta name="robots" content="follow"/>
+        <!--encontre en google que estas etiquetas meta son importantes-->
+
+        <link rel="stylesheet" href="css/estilos.css">
+        <title>Mecanic - Nosotros</title>
+    </head>
 
 <body>
 
     <header>
-        <h1>Bienevenidos a la Primera Tarea</h1>
         <nav>
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="pagina1.html">IMAGENES</a></li>
-                <li><a href="pagina2.html">TEXTOS</a></li>
+            <ul class="nav">
+                <li><a class="logo" href=""><img src="img/logos/logo_mecanic.png" alt=""></a></li>
+                <li><a class="boton" href="index.html">HOME</a></li>
+                <li><a class="boton" href="pagina1.html">NOSOTROS</a></li>
+                <li><a class="boton" href="pagina2.html">CONTACTO</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <h2>Primera Página</h2>
-        <h3>Imágenes</h3>
-        <img src="img/foto1.jpg" alt="">
-        <img src="img/foto2.jpg" alt="">
-        <img src="img/foto3.jpg" alt="">
-
+       
     </main>
 
     <footer>
 
-        <h3 class="centrado">Suscribite a nuestras noticias</h3>
-        <div class="form">
-            <input type="email" placeholder="Email">
-            <input type="submit" value="ENVIAR" class="boton">
+        <div>
+            <h2 class="centrado">Seguinos en nuestras redes</h2>
+            <ul class="redes">
+                <li><a href=""><img class="icon" src="img/icons/icons8-facebook-50.png" alt=""></a></li>
+                <li><a href=""><img class="icon" src="img/icons/icons8-instagram-50.png" alt=""></a></li>
+                <li><a href=""><img class="icon" src="img/icons/icons8-twitter-50.png" alt=""></a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3 class="centrado">Suscribite a nuestras noticias</h3>
+            <div class="form">
+                <input type="email" placeholder="Email">
+                <input type="submit" value="ENVIAR" class="boton-secundario">
+            </div>
         </div>
 
     </footer>
