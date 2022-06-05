@@ -26,38 +26,55 @@ NARANJAS
 ul{
     list-style-type: none;
 }
-img{
-    max-width: 33%;
-    margin: auto;
-}
-
-
-
 p{
-    margin: 10px;
-    padding: 10px;
+    /*margin: 10px;
+    padding: 10px;*/
 }
 
+/*SECCIONES*/
 header{
     min-height: 150px;
     background-color: #0979b0;
+    padding: 25px;
 }
 
 main{
-    height: 500px;
+    min-height: 500px;
 }
-
 footer{
     background-color: #004173;
     color:white;
     height: 250px;
     padding-top: 15px;
 }
+.container-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+.info{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 50px;
+    background-color: beige;
+}
+.info p{
+    text-align: justify;
+    line-height: 35px;
+    font-size: 25px;
+    font-family: monospace;
+    padding: 15px;
+}
+/*FIN DE SECCIONES*/
 
 .centrado{
     text-align: center;
 }
-
 .form{
     width: 300px;
     margin: auto;
@@ -76,10 +93,9 @@ footer{
     margin-bottom: 35px;
 }
 .icon{
-    width: 150px;
+    width: 50px;
     display: block;
 }
-
 input{
     height: 50px;
     width: 100%;
@@ -88,10 +104,6 @@ input{
     box-sizing: border-box;
     text-align: center;
 }
-
-
-
-
 .titulo{
     color: #ffa333;
     font-size: 45px;
@@ -133,5 +145,8 @@ input{
 .boton:hover{
     background-color: #ffa333;
     color: #004173;
+}
+.logo img{
+    max-width: 150px;
 }
 /*FIN DE NAV*/
