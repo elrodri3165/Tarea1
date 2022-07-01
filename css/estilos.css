@@ -21,8 +21,14 @@ NARANJAS
     padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+html{
+    height: 0;
+}
 ul{
     list-style-type: none;
+}
+main{
+    min-height: 100vh;
 }
 /*FIN DE RESETEO*/
 
@@ -38,8 +44,9 @@ main{
 footer{
     background-color: #004173;
     color:white;
-    height: 250px;
+    min-height: 315px;
     padding-top: 15px;
+    padding-bottom: 0px;
 }
 .container-menu{
     display: flex;
