@@ -26,6 +26,7 @@ html{
 }
 ul{
     list-style-type: none;
+    padding-inline-start: 0px;
 }
 main{
     min-height: 100vh;
@@ -168,3 +169,71 @@ input{
     max-width: 150px;
 }
 /*FIN DE NAV*/
+
+
+/*VISTA DE PC CHICA*/
+@media (max-width: 1400px) {
+    .info{
+        width: 800px;
+    }
+}
+/*FIN PC CHICA*/
+
+
+/*VISTA DE TABLET*/
+@media (max-width: 1024px) {
+    .info{
+        width: 600px;
+    }
+    .boton{
+        width: 120px;
+    }
+}
+/*FIN VISTA DE TABLET*/
+
+
+/*VISTA DE TELÉFONO*/
+@media (max-width: 650px) {
+    .info{
+        max-width: 300px;
+        padding: 20px;
+    }
+    .info p{
+        line-height: 25px;
+        font-size: 15px;
+        padding: 1px;
+    }
+    .nav{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .boton{
+        margin:15px;
+    }
+    .container-menu{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding: 50px;
+    }
+    .redes{
+        width: 400px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 35px;
+    }
+}
+/*FIN VISTA DE TELÉFONO*/
+
+
+@media (max-width: 350px) {
+    .info{
+        width: 80%;
+        padding: 3px;
+    }
+}
+
