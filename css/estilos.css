@@ -85,6 +85,8 @@ section iframe{
 
 .centrado{
     text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .form{
     width: 300px;
@@ -107,7 +109,7 @@ section iframe{
     width: 50px;
     display: block;
 }
-input{
+.input-footer{
     height: 50px;
     width: 100%;
     margin: 5px;
