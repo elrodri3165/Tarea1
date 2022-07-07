@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Mi primera tarea" />
+    <meta name="keywords" content="Mecanicos, mecanica, autos" />
+    <meta name="copyright" content="" />
+    <meta name="author" content="Rodrigo Nicolas Gallo" />
+    <meta name="robots" content="index" />
+    <meta name="robots" content="follow" />
+    <!--encontre en google que estas etiquetas meta son importantes-->
+
+    <!-- CSS only https://getbootstrap.com/ -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- CSS only https://getbootstrap.com/ -->
+
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Mecanic - Contacto</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav>
+            <ul class="nav">
+                <li><a class="logo" href=""><img src="img/logos/logo_mecanic.png" alt=""></a></li>
+                <li><a class="boton" href="index.html">HOME</a></li>
+                <li><a class="boton" href="pagina1.html">NOSOTROS</a></li>
+                <li><a class="boton" href="pagina2.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- FIN HEADER -->
+
+    <main>
+
+        <h2 class="centrado">Registrar un AUTO</h2> 
+
+        <!-- FORMULARIO DE REGISTRO AUTO-->
+        <section class="form-contacto">
+            <div class="container p-3 mt-5 mb-5 border">
+                <h3>¿Deseas registrar tu vehiculo?</h3>
+                <p class="">Por favor complete todos los campos</p>
+                <form class="row g-3 needs-validation" novalidate>
+
+                    <div class="form-floating">
+                        <select class="form-select" id="marca" aria-label="Marca" required>
+                            <option value="">Elija su marca</option>
+                            <option value="1">FIAT</option>
+                            <option value="2">PEUGEOT</option>
+                            <option value="3">RENAULT</option>
+                            <option value="">VOLKSWAGEN</option>
+                            <option value="">BMW</option>
+                            <option value="">FERRARI</option>
+                            <option value="">VOLVO</option>
+                            <option value="">ACURA</option>
+                            <option value="">PONTIAC</option>
+                        </select>
+                        <label for="marca">Por favor seleccione una marca</label>
+                    </div>
+
+                    <div class="form-floating">
+                        <input type="text" class="form-control" id="modelo" placeholder="Modelo" value="" required>
+                        <label for="modelo">Modelo</label>
+                    </div>
+                    
+                    <div class="form-floating">
+                        <select class="form-select" id="año" aria-label="Año" required>
+                            <option value="">Elija su año</option>
+                            <option value="1">2022</option>
+                            <option value="2">2021</option>
+                            <option value="3">2020</option>
+                            <option value="">2019</option>
+                            <option value="">2018</option>
+                            <option value="">2017</option>
+                            <option value="">2016</option>
+                            <option value="">2015</option>
+                            <option value="">2014</option>
+                        </select>
+                        <label for="año">Por favor seleccione un año</label>
+                    </div>
+
+                    <div class="form-floating">
+                        <input type="text" class="form-control" id="dominio" placeholder="Dominio" value="" min-length="6" max-length="10" required>
+                        <label for="modelo">Dominio o patente</label>
+                    </div>
+                    
+                    <div class="form-floating">
+                        <input type="number" class="form-control" id="kilometros" placeholder="Kilómetros" value="" required>
+                        <label for="kilometros">Ingrese los kilometros</label>
+                    </div>
+                    
+                    <div class="form-floating">
+                        <select class="form-select" id="color" aria-label="Color" required>
+                            <option value="">Elija un color</option>
+                            <option value="1">Negro</option>
+                            <option value="2">Blanco</option>
+                            <option value="3">Rojo</option>
+                            <option value="">Azul</option>
+                            <option value="">Amarillo</option>
+                            <option value="">Verde</option>
+                            <option value="">Gris</option>
+                            <option value="">Celeste</option>
+                            <option value="">Azul</option>
+                        </select>
+                        <label for="color">Por favor seleccione un color</label>
+                    </div>
+                    
+                    <div class="form-floating">
+                        <select class="form-select" id="combustible" aria-label="Combustible" required>
+                            <option value="">Elija un combustible</option>
+                            <option value="1">NAFTA</option>
+                            <option value="2">DIESEL</option>
+                            <option value="3">NAFTA + GNC</option>
+                        </select>
+                        <label for="combustible">Por favor seleccione un combustible</label>
+                    </div>
+
+                    <div class="form-floating">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                            <label class="form-check-label" for="invalidCheck">
+                                Aceptar los términos y condiciones.
+                            </label>
+                            <div class="invalid-feedback">
+                                Debe aceptar los términos y condiciones.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button class="btn btn-primary" type="submit">ENVIAR</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- FIN FORMULARIO DE REGISTRO AUTO-->
+
+    </main>
+
+    <footer>
+
+        <div>
+            <h2 class="centrado">Seguinos en nuestras redes</h2>
+            <ul class="redes">
+                <li><a href=""><img class="icon" src="img/icons/icons8-facebook-50.png" alt=""></a></li>
+                <li><a href=""><img class="icon" src="img/icons/icons8-instagram-50.png" alt=""></a></li>
+                <li><a href=""><img class="icon" src="img/icons/icons8-twitter-50.png" alt=""></a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3 class="centrado">Suscribite a nuestras noticias</h3>
+            <div class="form">
+                <input class="input-footer" type="email" placeholder="Email">
+                <input type="submit" value="ENVIAR" class="boton-secundario">
+            </div>
+        </div>
+
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="js/form-control-bs.js"></script>
+</body>
+</html>
